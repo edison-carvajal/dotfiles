@@ -6,7 +6,7 @@ this reposirory is used to store dotfiles for edison carvajal
  * Git
  * Curl
 
-##Install
+## Install
 
 Install config tracking in your $HOME by running:
 curl -Lks https://github.com/edison-carvajal/dotfiles/blob/ubuntu-s4n/.bin/install.sh | /bin/bash
