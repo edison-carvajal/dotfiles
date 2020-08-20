@@ -110,13 +110,13 @@ export NVM_DIR="$HOMEcd $/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
 ## logica subir ambiente qiip automaticamente
-#export QIIP_HOME="$HOME/develop/qiip"
-#
-#if [[ -n $SUBIR_AMBIENTE ]]; then
-#	sh $QIIP_HOME/infraestructura/local/subirAmbiente.sh
-#fi
-#
-#export SUBIR_AMBIENTE="si"
+export QIIP_HOME="$HOME/develop/qiip"
+
+if [[ -n $SUBIR_AMBIENTE ]]; then
+	sh $QIIP_HOME/infraestructura/local/subirAmbiente.sh
+fi
+
+export SUBIR_AMBIENTE="si"
 ## fin  logica subir ambiente qiip automaticamente
 
 #key english spanish config
@@ -127,4 +127,7 @@ export JAVA_HOME="/usr/lib/jvm/java-1.8.0-openjdk-amd64"
 export PATH=$PATH":$HOME/develop/java/idea-IU-192.5728.98/bin"
 export PATH=$PATH":$HOME/apps/Postman/app"
 
+## custom alias
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+
+alias gdto='git difftool'

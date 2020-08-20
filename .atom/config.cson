@@ -1,0 +1,28 @@
+"*":
+  "atom-beautify":
+    js: {}
+  "atom-ternjs":
+    useSnippets: true
+  autosave:
+    enabled: true
+  core:
+    disabledPackages: [
+      "atom-live-server-plus"
+      "atom-xterm"
+    ]
+    packagesWithKeymapsDisabled: []
+    telemetryConsent: "no"
+  editor:
+    fontSize: 13
+    invisibles: {}
+  "exception-reporting":
+    userId: "22828719-90e3-401e-819b-b3afc918606a"
+  "git-blame":
+    columnWidth: 400
+  "language-babel":
+    autoIndentJSX: true
+  "linter-js-standard": {}
+  "linter-ui-default": {}
+  "one-dark-ui": {}
+  welcome:
+    showOnStartup: false
