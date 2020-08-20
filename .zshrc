@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/edandr/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 export TERM="xterm-256color"
 
 # Set name of the theme to load --- if set to "random", it will
@@ -102,17 +102,29 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-export NVM_DIR="/Users/edandr/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-
+#Jenv config
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
-export PATH="/usr/local/opt/libpq/bin:$PATH"
-export PATH=~/.local/bin:$PATH
-export PATH="~/Library/Python/2.7/bin:$PATH"
-export TERM=xterm-color
 
-#Variables de qiip
-export QIIP_HOME=~/develop/s4n/qiip
+export NVM_DIR="$HOMEcd $/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
-alias config='/usr/bin/git --git-dir=/Users/edandr/.cfg/ --work-tree=/Users/edandr'
+## logica subir ambiente qiip automaticamente
+#export QIIP_HOME="$HOME/develop/qiip"
+#
+#if [[ -n $SUBIR_AMBIENTE ]]; then
+#	sh $QIIP_HOME/infraestructura/local/subirAmbiente.sh
+#fi
+#
+#export SUBIR_AMBIENTE="si"
+## fin  logica subir ambiente qiip automaticamente
+
+#key english spanish config
+setxkbmap -rules evdev -model evdev -layout us -variant altgr-intl
+
+##other path configurations
+export JAVA_HOME="/usr/lib/jvm/java-1.8.0-openjdk-amd64"
+export PATH=$PATH":$HOME/develop/java/idea-IU-192.5728.98/bin"
+export PATH=$PATH":$HOME/apps/Postman/app"
+
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
