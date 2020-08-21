@@ -1,0 +1,156 @@
+{
+  "_from": "https://www.atom.io/api/packages/linter-stylelint/versions/4.5.0/tarball",
+  "_id": "linter-stylelint@4.5.0",
+  "_inBundle": false,
+  "_integrity": "sha512-wY7XB+fWHIxU4CoJdJBmzWRLCvMEgR+rTDEq+wiz1c5gtUgqbJDeshPQJK8KwOxt6X3FN16vMs4y+rYSgFoViw==",
+  "_location": "/linter-stylelint",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/linter-stylelint/versions/4.5.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/linter-stylelint/versions/4.5.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/linter-stylelint/versions/4.5.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/linter-stylelint/versions/4.5.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/linter-stylelint/versions/4.5.0/tarball",
+  "_shasum": "a8f3bf90e203ccad78ea40753ab1dc69be35248b",
+  "_spec": "https://www.atom.io/api/packages/linter-stylelint/versions/4.5.0/tarball",
+  "_where": "/tmp/apm-install-dir-120221-32131-wiaxtx.wka",
+  "author": {
+    "name": "1000ch",
+    "email": "shogo.sensui@gmail.com",
+    "url": "http://github.com/1000ch"
+  },
+  "bugs": {
+    "url": "https://github.com/AtomLinter/linter-stylelint/issues"
+  },
+  "bundleDependencies": false,
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "configSchema": {
+    "useStandard": {
+      "title": "Use standard",
+      "description": "Use the stylelint-config-standard lint configuration when no other configuration is found. Disables the \"Disable when no config\" option.",
+      "type": "boolean",
+      "default": false
+    },
+    "disableWhenNoConfig": {
+      "title": "Disable when no config is found",
+      "description": "You can find the list of supported formats in the [stylelint docs](https://stylelint.io/user-guide/configuration/#loading-the-configuration-object).",
+      "type": "boolean",
+      "default": true
+    },
+    "showIgnored": {
+      "title": "Show message when a file is ignored",
+      "type": "boolean",
+      "default": false
+    },
+    "fixOnSave": {
+      "description": "Automatically attempt to fix errors using stylelint --fix flag (experimental)",
+      "title": "Attempt to fix styles on save",
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "dependencies": {
+    "assign-deep": "0.4.8",
+    "atom-linter": "10.0.0",
+    "atom-package-deps": "5.1.0",
+    "resolve": "1.15.1",
+    "stylelint": "13.2.1",
+    "stylelint-config-standard": "20.0.0"
+  },
+  "deprecated": false,
+  "description": "A plugin for Atom Linter providing an interface to stylelint.",
+  "devDependencies": {
+    "@commitlint/cli": "8.3.5",
+    "@commitlint/config-conventional": "8.3.4",
+    "@commitlint/travis-cli": "8.3.5",
+    "@semantic-release/apm-config": "8.0.0",
+    "eslint": "6.8.0",
+    "eslint-config-airbnb-base": "14.0.0",
+    "eslint-plugin-import": "2.20.1",
+    "husky": "4.2.3",
+    "jasmine-fix": "1.3.1",
+    "rimraf": "3.0.2",
+    "semantic-release": "17.0.4"
+  },
+  "engines": {
+    "atom": ">=1.7.0 <2.0.0"
+  },
+  "eslintConfig": {
+    "rules": {
+      "comma-dangle": [
+        "error",
+        "never"
+      ],
+      "global-require": "off",
+      "import/no-unresolved": [
+        "error",
+        {
+          "ignore": [
+            "atom"
+          ]
+        }
+      ]
+    },
+    "extends": "airbnb-base",
+    "globals": {
+      "atom": true
+    },
+    "env": {
+      "node": true,
+      "browser": true
+    }
+  },
+  "homepage": "https://github.com/AtomLinter/linter-stylelint#readme",
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "keywords": [
+    "css",
+    "lint",
+    "postcss",
+    "stylelint"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "name": "linter-stylelint",
+  "package-deps": [
+    "linter:2.0.0"
+  ],
+  "private": true,
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "2.0.0": "provideLinter"
+      }
+    }
+  },
+  "release": {
+    "extends": "@semantic-release/apm-config"
+  },
+  "renovate": {
+    "extends": [
+      "config:base"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AtomLinter/linter-stylelint.git"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "atom --test spec"
+  },
+  "version": "4.5.0"
+}

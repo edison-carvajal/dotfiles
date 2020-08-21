@@ -1,0 +1,53 @@
+{
+  "_from": "https://www.atom.io/api/packages/template-generator/versions/0.16.0/tarball",
+  "_id": "template-generator@0.16.0",
+  "_inBundle": false,
+  "_integrity": "sha512-u2/2M9T0pJUs5c2Kbs/J29l0GjrgyYnHey2FTIuEv5A9/HCzdMpccS3mlupOZOhsNYcIcS5vNjpZfGuKiKG59w==",
+  "_location": "/template-generator",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/template-generator/versions/0.16.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/template-generator/versions/0.16.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/template-generator/versions/0.16.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/template-generator/versions/0.16.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/template-generator/versions/0.16.0/tarball",
+  "_shasum": "a39e40defa831d985ff4778966d7de93933e26e2",
+  "_spec": "https://www.atom.io/api/packages/template-generator/versions/0.16.0/tarball",
+  "_where": "/tmp/apm-install-dir-120221-32458-xmfa8l.iqsgr",
+  "bugs": {
+    "url": "https://github.com/sdinesh86/template-generator/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "atom-space-pen-views": "^2.1.0",
+    "change-case": "^3.0.0",
+    "event-kit": "^1.0.0",
+    "fs-plus": "^2.8.1",
+    "fuzzaldrin": "^2.1.0",
+    "jquery": "^2.1.4",
+    "request": "^2.74.0",
+    "season": "^5.3.0",
+    "underscore": "^1.8.3"
+  },
+  "deprecated": false,
+  "description": "Create Templates of Files / file structure and create these files whenever you want and how ever you want",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/sdinesh86/template-generator#readme",
+  "keywords": [],
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "template-generator",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdinesh86/template-generator.git"
+  },
+  "version": "0.16.0"
+}

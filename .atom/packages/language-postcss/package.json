@@ -1,0 +1,53 @@
+{
+  "_from": "https://www.atom.io/api/packages/language-postcss/versions/1.3.1/tarball",
+  "_id": "language-postcss@1.3.1",
+  "_inBundle": false,
+  "_integrity": "sha512-zWedZtOZprAH5vDM+fJMN9mAH7ENe/qbz+sjWcFe25G9fvq5a/uJzGYYxPJXA2Xo3KhRjlQISjW/t9YP/VJ/xg==",
+  "_location": "/language-postcss",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/language-postcss/versions/1.3.1/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/language-postcss/versions/1.3.1/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/language-postcss/versions/1.3.1/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/language-postcss/versions/1.3.1/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/language-postcss/versions/1.3.1/tarball",
+  "_shasum": "5ec2b026c91423f89ad76f48cd31fc3f55658e0b",
+  "_spec": "https://www.atom.io/api/packages/language-postcss/versions/1.3.1/tarball",
+  "_where": "/tmp/apm-install-dir-120221-31554-1hjcjr4.quvr",
+  "author": {
+    "name": "Azat S.",
+    "email": "to@azat.io",
+    "url": "http://azat.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/azat-io/atom-language-postcss/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Syntax highlighting for PostCSS",
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "homepage": "https://github.com/azat-io/atom-language-postcss#readme",
+  "keywords": [
+    "postcss",
+    "sugarss",
+    "language",
+    "grammar",
+    "editor"
+  ],
+  "license": "MIT",
+  "name": "language-postcss",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azat-io/atom-language-postcss.git"
+  },
+  "version": "1.3.1"
+}

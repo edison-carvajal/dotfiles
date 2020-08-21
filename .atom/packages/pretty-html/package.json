@@ -1,0 +1,48 @@
+{
+  "_from": "https://www.atom.io/api/packages/pretty-html/versions/1.0.0/tarball",
+  "_id": "pretty-html@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-hGDJC5ziDZXbh5YEBrn1C0atRs/R7b6VFaWAxYTxyZgQn7c+JgHWzuYUPo9lhgP7r3eL1EK191aDggv5n1XFXA==",
+  "_location": "/pretty-html",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/pretty-html/versions/1.0.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/pretty-html/versions/1.0.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/pretty-html/versions/1.0.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/pretty-html/versions/1.0.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/pretty-html/versions/1.0.0/tarball",
+  "_shasum": "93483f00a87b3ed57e8313741590f8b00bc152fd",
+  "_spec": "https://www.atom.io/api/packages/pretty-html/versions/1.0.0/tarball",
+  "_where": "/tmp/apm-install-dir-119817-13953-8v0uig.e323l",
+  "activationCommands": {
+    "atom-workspace": "pretty-html:toggle"
+  },
+  "bugs": {
+    "url": "https://github.com/ahmedBassell/pretty-html-atom/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "ibg-html-pretty": "^1.0.1"
+  },
+  "deprecated": false,
+  "description": "An opinionated lightweight package to beautify & lint html partials",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/ahmedBassell/pretty-html-atom#readme",
+  "keywords": [],
+  "license": "MIT",
+  "main": "./lib/pretty-html",
+  "name": "pretty-html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmedBassell/pretty-html-atom.git"
+  },
+  "version": "1.0.0"
+}

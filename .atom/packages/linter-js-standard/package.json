@@ -1,0 +1,80 @@
+{
+  "_from": "https://www.atom.io/api/packages/linter-js-standard/versions/7.0.0/tarball",
+  "_id": "linter-js-standard@7.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-H8sw8sYUSTz2A/9nfLpBFrO6yojCpFmGy3UhfI1OHikfZ+Y+OTNH8F5Hys8aRiGMp626DnBzQ6tIi+T1wwwsUQ==",
+  "_location": "/linter-js-standard",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/linter-js-standard/versions/7.0.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/linter-js-standard/versions/7.0.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/linter-js-standard/versions/7.0.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/linter-js-standard/versions/7.0.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/linter-js-standard/versions/7.0.0/tarball",
+  "_shasum": "19cfe436a09c116f4f3bbd9316b62823d0cfe6a3",
+  "_spec": "https://www.atom.io/api/packages/linter-js-standard/versions/7.0.0/tarball",
+  "_where": "/tmp/apm-install-dir-120221-32258-1lycr95.4rd8",
+  "activationCommands": [],
+  "author": {
+    "name": "Ricardo Barros",
+    "email": "ricardofbarros@hotmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/ricardofbarros/linter-js-standard/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "atom-linter": "^10.0.0",
+    "atom-package-deps": "^4.6.2",
+    "babel-eslint": "^10.0.1",
+    "detect-eslint-config": "^0.5.7",
+    "eslint-rule-documentation": "^1.0.22",
+    "esprima": "^4.0.0",
+    "happiness": "^10.0.2",
+    "ignore": "^5.0.5",
+    "loophole": "^1.1.0",
+    "pkg-config": "^1.1.1",
+    "semistandard": "^14.0.1",
+    "standard": "^14.1.0"
+  },
+  "deprecated": false,
+  "description": "Linter plugin for JavaScript Standard Style",
+  "engines": {
+    "atom": ">=1.14.0 <2.0.0"
+  },
+  "homepage": "https://github.com/ricardofbarros/linter-js-standard#readme",
+  "keywords": [
+    "javascript",
+    "standard",
+    "linter"
+  ],
+  "license": "MIT",
+  "main": "./lib/init.js",
+  "name": "linter-js-standard",
+  "package-deps": [
+    "linter:2.0.0"
+  ],
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "2.0.0": "provideLinter"
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricardofbarros/linter-js-standard.git"
+  },
+  "standard": {
+    "globals": [
+      "atom"
+    ]
+  },
+  "version": "7.0.0"
+}
