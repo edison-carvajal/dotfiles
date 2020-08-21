@@ -9,4 +9,4 @@ this reposirory is used to store dotfiles for edison carvajal, I follow this tut
 ## Install
 
 Install config tracking in your $HOME by running:
-curl -Lks https://github.com/edison-carvajal/dotfiles/raw/ubuntu-s4n/.bin/install.sh | /bin/bash
+curl -Lks https://github.com/edison-carvajal/dotfiles/raw/master/.bin/install.sh | /bin/bash
