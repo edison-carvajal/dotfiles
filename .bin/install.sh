@@ -13,5 +13,5 @@ if [ $? = 0 ]; then
     echo "Backing up pre-existing dot files.";
     config checkout 2>&1 | egrep "\s+\." | awk {'print $1'} | xargs -I{} mv {} .config-backup/{}
 fi;
-config checkout -f ubuntu-s4n
+config checkout -f mac
 config config status.showUntrackedFiles no
