@@ -1,3 +1,0 @@
-INSERT INTO recaudo (referencia, monto_indicado_inicialmente, estado_recaudo, recaudador, tipo_pagador,
-monto, id_transaccion, mensaje, respuesta, fecha_creacion, fecha_actualizacion)
-VALUES(<REFERENCIA>, <MONTO_TOTAL>, 0, 2, 2, NULL, NULL, NULL, NULL, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
