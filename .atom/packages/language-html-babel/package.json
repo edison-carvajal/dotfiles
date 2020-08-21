@@ -1,0 +1,47 @@
+{
+  "_from": "https://www.atom.io/api/packages/language-html-babel/versions/0.49.2/tarball",
+  "_id": "language-html-babel@0.49.2",
+  "_inBundle": false,
+  "_integrity": "sha512-VaNDwKSsQ0br1yPnsUd5tIxOVyxeisOeQbXMPAAi7hvaltUwjZTKYbU3EfcH8L9dWcf5/yMbnIFFef47naiBVQ==",
+  "_location": "/language-html-babel",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/language-html-babel/versions/0.49.2/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/language-html-babel/versions/0.49.2/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/language-html-babel/versions/0.49.2/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/language-html-babel/versions/0.49.2/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/language-html-babel/versions/0.49.2/tarball",
+  "_shasum": "c8da6602ee60c7444d7d8360babfd8de090a8f08",
+  "_spec": "https://www.atom.io/api/packages/language-html-babel/versions/0.49.2/tarball",
+  "_where": "/tmp/apm-install-dir-120221-31249-1k4xubt.bgcfj",
+  "bugs": {
+    "url": "https://github.com/kentcdodds/language-html-babel/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "atom-grammar-test": "^0.6.3"
+  },
+  "deprecated": false,
+  "description": "Forked from language-html to add babel support for script tags",
+  "devDependencies": {
+    "coffeelint": "^1.10.1"
+  },
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "homepage": "https://github.com/kentcdodds/language-html-babel",
+  "license": "MIT",
+  "name": "language-html-babel",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kentcdodds/language-html-babel.git"
+  },
+  "version": "0.49.2"
+}

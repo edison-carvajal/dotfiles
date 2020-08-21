@@ -1,0 +1,121 @@
+{
+  "_from": "https://www.atom.io/api/packages/atom-xterm/versions/6.5.0/tarball",
+  "_id": "atom-xterm@6.5.0",
+  "_inBundle": false,
+  "_integrity": "sha512-mZMhTuRCepMrelZcT2Yh1SgZG7qHyq0HffGIcUpatHKzV+uLU/IAEHKyITzDhccvE3qeOoH+x2ExdiNCq0UDEA==",
+  "_location": "/atom-xterm",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/atom-xterm/versions/6.5.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/atom-xterm/versions/6.5.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/atom-xterm/versions/6.5.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/atom-xterm/versions/6.5.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/atom-xterm/versions/6.5.0/tarball",
+  "_shasum": "227b5e9b7f397855d97b8079f81b0733c1649ee2",
+  "_spec": "https://www.atom.io/api/packages/atom-xterm/versions/6.5.0/tarball",
+  "_where": "/tmp/apm-install-dir-120221-28840-6f72ao.zmlwf",
+  "activationCommands": {
+    "atom-workspace": "atom-xterm:need-this-to-activate-package-for-tests-do-not-remove"
+  },
+  "activationHooks": [
+    "core:loaded-shell-environment"
+  ],
+  "atomTestRunner": "./spec/custom-runner",
+  "bugs": {
+    "url": "https://github.com/amejia1/atom-xterm/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "deep-object-diff": "^1.1.0",
+    "element-resize-detector": "^1.1.14",
+    "fs-extra": "^6.0.1",
+    "node-pty-prebuilt": "^0.7.3",
+    "url-regex": "^4.1.1",
+    "uuid": "^3.3.2",
+    "whatwg-url": "^6.5.0",
+    "xterm": "^3.5.1"
+  },
+  "deprecated": false,
+  "description": "Atom plugin for providing terminals inside your Atom workspace.",
+  "deserializers": {
+    "AtomXtermModel": "deserializeAtomXtermModel"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.54",
+    "@babel/core": "^7.0.0-beta.54",
+    "@babel/preset-env": "^7.0.0-beta.54",
+    "@babel/register": "^7.0.0-beta.54",
+    "atom-jasmine3-test-runner": "^3.1.0",
+    "eslint": "^5.1.0",
+    "eslint-config-standard": "^12.0.0-alpha.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^8.0.0-beta.2",
+    "gulp-notice": "^1.0.3",
+    "jasmine-spec-reporter": "^4.2.1",
+    "jsdoc": "^3.5.5",
+    "jsonlint-cli": "^1.0.1",
+    "stylelint": "^9.3.0",
+    "stylelint-config-standard": "^18.2.0",
+    "tmp": "0.0.33"
+  },
+  "engines": {
+    "atom": ">=1.23.1 <2.0.0"
+  },
+  "homepage": "https://github.com/amejia1/atom-xterm#readme",
+  "keywords": [
+    "terminal",
+    "xterm",
+    "term",
+    "console",
+    "shell",
+    "emulator",
+    "pty",
+    "tty",
+    "comspec",
+    "command-line",
+    "bash",
+    "sh",
+    "powershell",
+    "cmd"
+  ],
+  "license": "MIT",
+  "main": "./lib/atom-xterm",
+  "name": "atom-xterm",
+  "providedServices": {
+    "atom-xterm": {
+      "description": "Atom plugin for providing terminals inside your Atom workspace.",
+      "versions": {
+        "2.0.0": "provideAtomXtermService"
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amejia1/atom-xterm.git"
+  },
+  "scripts": {
+    "compile-scripts": "gulp",
+    "docs": "npm run jsdoc",
+    "eslint": "eslint lib/ scripts_src/ spec/ gulpfile.babel.js",
+    "jsdoc": "jsdoc -c .jsdocrc",
+    "jsonlint": "jsonlint-cli keymaps/*.json menus/*.json package.json",
+    "lint": "npm run eslint && npm run stylelint && npm run jsonlint",
+    "move-winpty-binaries": "node scripts/move-winpty-binaries.js",
+    "preinstall": "npm run move-winpty-binaries",
+    "prepare": "npm run compile-scripts",
+    "preuninstall": "npm run move-winpty-binaries",
+    "stylelint": "stylelint styles/*.less",
+    "test": "atom --test spec && npm run lint"
+  },
+  "version": "6.5.0"
+}

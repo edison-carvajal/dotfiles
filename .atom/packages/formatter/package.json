@@ -1,0 +1,69 @@
+{
+  "_from": "https://www.atom.io/api/packages/formatter/versions/2.12.4/tarball",
+  "_id": "formatter@2.12.4",
+  "_inBundle": false,
+  "_integrity": "sha512-J4cqSH6uvBHgtzjHY1M+/GC30Bn/0n88D4wiQ422hDcu8bpLxaExwn/FKMb+5f0irLXQyGIGygkBsk//kv6ORw==",
+  "_location": "/formatter",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/formatter/versions/2.12.4/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/formatter/versions/2.12.4/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/formatter/versions/2.12.4/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/formatter/versions/2.12.4/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/formatter/versions/2.12.4/tarball",
+  "_shasum": "16e42f5f0e686592fc04baab9c253b85f3870802",
+  "_spec": "https://www.atom.io/api/packages/formatter/versions/2.12.4/tarball",
+  "_where": "/tmp/apm-install-dir-119816-21800-1j762ml.767a",
+  "bugs": {
+    "url": "https://github.com/atom-community/formatter/issues"
+  },
+  "bundleDependencies": false,
+  "consumedServices": {
+    "formatter": {
+      "versions": {
+        "1.0.0": "consumeFormatter"
+      }
+    }
+  },
+  "dependencies": {
+    "atom-slick": "^2.0.0",
+    "clear-cut": "^0.4.0",
+    "fuzzaldrin": "^2.1.0",
+    "grim": "^1.2.0",
+    "minimatch": "^2.0.1",
+    "selector-kit": "^0.1",
+    "semver": "^4.3.1",
+    "stable": "^0.1.5",
+    "underscore-plus": "^1.6.6"
+  },
+  "deprecated": false,
+  "description": "Format your files automatically on save or on-demand by running commands.",
+  "devDependencies": {
+    "babel-eslint": "^5.0.0",
+    "coffeelint": ">=1.8.1",
+    "eslint": "^2.1.0",
+    "eslint-config-standard": "^5.1.0",
+    "eslint-plugin-promise": "^1.0.8",
+    "eslint-plugin-standard": "^1.3.2",
+    "fs-plus": "^2.4.0",
+    "temp": "^0.8.3"
+  },
+  "engines": {
+    "atom": ">=1.5.0 <2.0.0"
+  },
+  "homepage": "https://github.com/atom-community/formatter#readme",
+  "license": "Apache-2.0",
+  "main": "./lib/main",
+  "name": "formatter",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atom-community/formatter.git"
+  },
+  "version": "2.12.4"
+}

@@ -1,0 +1,27 @@
+autoApplyDowns=false
+urlEndPoint=
+urlEndPointKinesis=
+bucketLogErrores=qa-qiip-failed-events-bucket
+region=us-east-1
+hikaricpmaximumPoolSize=2
+poolName=documentoPool
+urlPostgres=jdbc:postgresql://nbmdb-qa.ctff81kjseme.us-east-1.rds.amazonaws.com:5432/documento
+urlPostgresEventos=jdbc:postgresql://nbmdb-qa.ctff81kjseme.us-east-1.rds.amazonaws.com:5432/documento_eventos
+urlPostgresTest=jdbc:postgresql://nbmdb-qa.ctff81kjseme.us-east-1.rds.amazonaws.com:5432/prueba_documento
+arnDocumentoRegistrado=arn:aws:sns:us-east-1:663438867067:documento-empresa-cargado_qa
+arnDocumentoIdentidadRegistrado=arn:aws:sns:us-east-1:663438867067:documento-identidad-cargado_qa
+urlColaDocumento=https://queue.amazonaws.com/663438867067/documento_qa
+bucketDocumento=qa-qiip-documentos
+arnDocumentoEmpresaActualizado=arn:aws:sns:us-east-1:663438867067:documento-empresa-actualizado_qa
+arnDocumentoLegalCargado=arn:aws:sns:us-east-1:663438867067:documento-legal-cargado_qa
+arnEstadoCuentaSIIFCargado=arn:aws:sns:us-east-1:663438867067:estado-cuenta-siif-cargado_qa
+arnEstadoCuentaSIIFNoCargado=arn:aws:sns:us-east-1:663438867067:estado-cuenta-siif-no-cargado_qa
+arnConstanciaFiscalCargado=arn:aws:sns:us-east-1:663438867067:constancia-fiscal-cargado_qa
+arnConstanciaFiscalNoCargado=arn:aws:sns:us-east-1:663438867067:constancia-fiscal-no-cargado_qa
+urlConsultarEstadoOnboarding=http://172.17.0.1:4140/empresa/%s/estado_onboarding
+urlConsultarAhorrador=http://172.17.0.1:4140/ahorro/ahorradores/%s
+arnInformacionIdentidadCargada=arn:aws:sns:us-east-1:663438867067:informacion-identidad-cargada_qa
+arnInformacionIdentidadNoCargada=arn:aws:sns:us-east-1:663438867067:informacion-identidad-no-cargada_qa
+arnDocumentoGenericoGuardado=arn:aws:sns:us-east-1:663438867067:documento-generico-guardado_qa
+arnDocumentoPrestamoGuardado=arn:aws:sns:us-east-1:663438867067:documento-prestamo-guardado_qa
+cd ..

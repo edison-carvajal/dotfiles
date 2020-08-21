@@ -1,0 +1,67 @@
+{
+  "_from": "https://www.atom.io/api/packages/atom-live-server-plus/versions/3.0.1/tarball",
+  "_id": "atom-live-server-plus@3.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-SbTl+glWKYjKwcgYcXKittuLgT9EG554UUrlgA1TFx6sUN3kxF7vBNDHBX2gdayZL7HF6qmEYd8hZcFOs/VcVQ==",
+  "_location": "/atom-live-server-plus",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/atom-live-server-plus/versions/3.0.1/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/atom-live-server-plus/versions/3.0.1/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/atom-live-server-plus/versions/3.0.1/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/atom-live-server-plus/versions/3.0.1/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/atom-live-server-plus/versions/3.0.1/tarball",
+  "_shasum": "28959a3ba0b8889cc7f68add525dd4d00187bc2b",
+  "_spec": "https://www.atom.io/api/packages/atom-live-server-plus/versions/3.0.1/tarball",
+  "_where": "/tmp/apm-install-dir-120221-21124-16j7unw.c5gj",
+  "activationEvents": [
+    "atom-live-server:activate"
+  ],
+  "bugs": {
+    "url": "https://github.com/richiksc/atom-live-server-plus/issues"
+  },
+  "bundleDependencies": false,
+  "consumedServices": {
+    "console": {
+      "versions": {
+        "^0.1.0": "consumeConsole"
+      }
+    },
+    "tool-bar": {
+      "versions": {
+        "^0 || ^1": "consumeToolBar"
+      }
+    }
+  },
+  "dependencies": {
+    "json5": "^0.5.1",
+    "live-server": "^1.2.0",
+    "strip-ansi": "^4.0.0"
+  },
+  "deprecated": false,
+  "description": "Enhanced version of jas-chen/atom-live-server. Launch a HTTP server with live reload capability.",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/richiksc/atom-live-server-plus#readme",
+  "keywords": [
+    "static",
+    "server",
+    "live reload",
+    "livereload"
+  ],
+  "license": "MIT",
+  "main": "./lib/atom-live-server-plus",
+  "name": "atom-live-server-plus",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richiksc/atom-live-server-plus.git"
+  },
+  "version": "3.0.1"
+}

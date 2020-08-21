@@ -1,0 +1,21 @@
+"[{[packageName]}]":
+  type: "FOLDER"
+  "package.json":
+    type: "FILE"
+    content: '''
+      {
+        "name": "[{[packageName|lowerCase]}]",
+        "version": "0.0.1"
+      }
+    '''
+  "index.coffee":
+    type: "FILE"
+    content: '''
+      module.exports = [{[packageName|pascalCase]}] =
+        
+        activator: ( params ) ->
+          {
+            
+          } = params
+        
+    '''

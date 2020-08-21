@@ -1,0 +1,15 @@
+autoApplyDowns=true
+urlEndPoint=
+urlEndPointKinesis=
+region=us-east-1
+hikaricpmaximumPoolSize=4
+poolName=usuarioPool
+bucketLogErrores=dev-qiip-failed-events-bucket
+tiempoActualizacionSQS=10000
+urlPostgres=jdbc:postgresql://nbmdb-dev.ctff81kjseme.us-east-1.rds.amazonaws.com:5432/usuario
+urlPostgresEventos=jdbc:postgresql://nbmdb-dev.ctff81kjseme.us-east-1.rds.amazonaws.com:5432/usuario_eventos
+urlPostgresTest=jdbc:postgresql://nbmdb-dev.ctff81kjseme.us-east-1.rds.amazonaws.com:5432/prueba_usuario
+urlColaUsuario=https://sqs.us-east-1.amazonaws.com/663438867067/usuario
+arnLeadActualizado=arn:aws:sns:us-east-1:663438867067:lead-actualizado
+arnLeadNoActualizado=arn:aws:sns:us-east-1:663438867067:lead-no-actualizado
+urlConsultarAhorrador=http://172.17.0.1:4140/ahorro/ahorradores/%s

@@ -1,0 +1,18 @@
+INSERT INTO recaudo (referencia, monto_indicado_inicialmente, estado_recaudo, recaudador, tipo_pagador,
+monto, id_transaccion, mensaje, respuesta, fecha_creacion, fecha_actualizacion)
+VALUES(<REFERENCIA>, <MONTO_TOTAL>, 0, 2, 2, NULL, NULL, NULL, NULL, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+
+
+
+INSERT INTO recaudo (referencia, monto_indicado_inicialmente, estado_recaudo, recaudador, tipo_pagador,
+monto, id_transaccion, mensaje, respuesta, fecha_creacion, fecha_actualizacion)
+VALUES(00000000000000170076,4000.00 , 0, 2, 2, NULL, NULL, NULL, NULL, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+
+
+
+curl -X POST \
+  https://api.qiip.com.mx/cash_in/recaudos/acreditar/mx/bancomer \
+  -H 'Content-Type: application/x-www-form-urlencoded' \
+  -H 'Postman-Token: c378356f-d37a-43b0-b681-b28a9dbb366d' \
+  -H 'cache-control: no-cache' \
+  -d 'mp_order=00000000000000096073&mp_reference=00000000000000096073&mp_amount=7000.00&mp_response=00&mp_responsemsg=ACREDITADO%20%20MANUALMENTE&mp_authorization=00052455282072&mp_signature=4d5b9ed03bf0af9b6cfc0d7e968b1852f9ac9d99ea183b896291b31164f1eb7a'

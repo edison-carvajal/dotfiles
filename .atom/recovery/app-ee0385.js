@@ -1,0 +1,2 @@
+
+const enlaces = document.querySelectorAll('')
